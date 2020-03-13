@@ -6,7 +6,7 @@
         alt="Soupe Pho Bô"
         class="product-image"
       />
-      <canvas id="canvas" class="loclac"></canvas>
+      <SmokeCanvas class="loclac" />
     </div>
     <div class="product-box">
       <div class="product-tag">plat</div>
@@ -21,3 +21,13 @@
     </div>
   </div>
 </template>
+
+<script>
+import SmokeCanvas from '~/components/SmokeCanvas'
+
+export default {
+  components: {
+    SmokeCanvas
+  }
+}
+</script>

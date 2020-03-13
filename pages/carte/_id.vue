@@ -61,8 +61,6 @@ export default {
           $(this).addClass('active')
         }
       })
-
-      window.gsap.to('.lateral-menu', { duration: 1, x: 100 })
     })
   }
 }

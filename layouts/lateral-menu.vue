@@ -38,3 +38,16 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  components: {},
+  data() {
+    return {}
+  },
+  mounted: () => {
+    window.gsap.to('.lateral-menu', { duration: 0.3, x: 100 })
+    window.gsap.to('.secondary-menu li', { x: 100, stagger: 0.1 })
+  }
+}
+</script>

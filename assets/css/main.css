@@ -340,6 +340,11 @@ h2 {
   padding-left: 0;
   margin-top: 150px;
 }
+.secondary-menu li {
+  margin-left: -100px;
+  max-width: 130px;
+  min-width: 100px;
+}
 .secondary-menu li a {
   text-decoration: none;
   font-size: 14px;
@@ -383,8 +388,9 @@ canvas {
   transform: translate(-50%, -50%);
   left: 46.5%;
   top: 0;
-  opacity: 0.2;
+  opacity: 1;
   z-index: -1;
+  background: transparent;
 }
 canvas.bobun {
   top: 18%;

@@ -2,7 +2,7 @@
   <div>
     <div id="smoke" class="column-photo">
       <img src="~assets/img/bun.png" alt="Soupe Pho Bô" class="product-image" />
-      <canvas id="canvas" class="bobun"></canvas>
+      <SmokeCanvas id="canvas" class="bobun"></SmokeCanvas>
     </div>
     <div class="product-box">
       <div class="product-tag">plat</div>
@@ -22,3 +22,13 @@
     </div>
   </div>
 </template>
+
+<script>
+import SmokeCanvas from '~/components/SmokeCanvas'
+
+export default {
+  components: {
+    SmokeCanvas
+  }
+}
+</script>
